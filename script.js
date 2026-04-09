@@ -33,7 +33,7 @@ arr.forEach(button => {
 
     window.onload = function() {
     // confirm() ek browser notification dikhayega jisme "OK" aur "Cancel" hoga
-    let askMode = confirm("Welcome! Kya aap Dark Mode on karna chahte hain?");
+    let askMode = confirm("would you like to open dark mode?");
 
     if (askMode == true) {
         // Agar user 'OK' dabata hai toh dark mode on ho jayega
